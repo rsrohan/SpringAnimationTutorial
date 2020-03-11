@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_6"
+    tools:context=".MainActivity">
+
+
+   <Button
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:background="@drawable/btn_bg_small"
+       android:layout_centerInParent="true"
+       android:id="@+id/btn1"
+       android:text="1"
+       android:textColor="#ffffff" />
+
+   <Button
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:background="@drawable/btn_bg_small"
+       android:layout_centerInParent="true"
+       android:id="@+id/btn2"
+       android:text="2"
+       android:textColor="#ffffff" />
+   <Button
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:background="@drawable/btn_bg_small"
+       android:layout_centerInParent="true"
+       android:id="@+id/btn3"
+       android:text="3"
+       android:textColor="#ffffff" />
+   <Button
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:background="@drawable/btn_bg_small"
+       android:layout_centerInParent="true"
+       android:id="@+id/btn4"
+       android:text="4"
+       android:textColor="#ffffff" />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:background="@drawable/btn_bg"
+       android:text="TAP ME"
+       android:textColor="#ffffff"
+       android:textSize="20dp"
+       android:padding="4dp"
+       android:id="@+id/showAnimationButton"
+       />
+
+</RelativeLayout>
